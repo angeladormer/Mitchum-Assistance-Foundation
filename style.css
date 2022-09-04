@@ -135,16 +135,24 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 
+.entireFormHelp{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.entireFormDonate{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .formLeft{
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
     margin-right: 10%;
     align-items: space-between;
 }
 
 .formRight{
-    margin-top: 1rem;
     margin-right: 20%;
 }
 
@@ -158,9 +166,6 @@ body{
     border-radius: 12px;
     border: solid 1px #0C2F6C;
     margin-bottom: 3em;
-}
-
-.inputWider{
     width: 25em;
 }
 
