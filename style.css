@@ -139,7 +139,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
-    margin-right: 20%;
+    margin-right: 10%;
     align-items: space-between;
 }
 
@@ -148,7 +148,7 @@ body{
     margin-right: 20%;
 }
 
-.helpOurCauseFormRight{
+.helpFormRight{
     display: flex;
     flex-direction: column;
 }
@@ -201,6 +201,10 @@ body{
 
 .bigTopMargin{
     margin-top: 0.5em;
+}
+
+.paymentMargin{
+    margin-top: 0.9em;
 }
 
 .shorterMargin{
