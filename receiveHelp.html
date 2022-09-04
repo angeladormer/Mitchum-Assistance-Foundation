@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receive Help</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="header">
+            <li class="inactive"><a href="index.html">Homepage</a></li>
+            <li class="active"><a href="receiveHelp.html">Receive help</a></li>
+            <li class="inactive"><a href="helpOurCause.html">Help our cause</a></li>
+            <li class="inactive"><a href="whoWeAre.html">Who we are</a></li>
+            <li class="inactive"><a href="dedicationPage.html">Dedication page</a></li>
+        </ul>
+    </header>
+
+    <section class="formSection">
+        <h1 class="formTitle">Receive help now</h1>
+        <h2 class="formText">Fill out this quick form, we will be discrete and quick to respond. Fill this form out to the best of your
+            knowledge, and be as detailed as possible.</h2>
+            <form action="receiveHelpSubmitted.html">
+                <section class="entireForm">
+                <section class="formLeft">
+                    <label for="fName" class="instructions">First Name</label>
+                        <input type="text" class="input"> 
+                    <label for="lName" class="instructions">Last Name</label>
+                        <input type="text" class="input">
+                    <label for="eNumber" class="instructions">Employee Number (4 digits)</label>
+                        <input type="number" min="1000" max="99999" class="input">
+                    <label for="hDate" class="instructions">Hire Date (MM/DD/YYYY)</label>
+                        <input type="date" class="input">
+                </section>
+                <section class="formRight">
+                    <label for="aRequest" class="instructions">Assistance Amount (rounded to the nearest dollar)</label>
+                        <input type="number" class="input inputWider">
+                        <br>
+                    <label for="request" class="instructions">Please explain how you plan to use this assistance, be as detailed as possible.</label>
+                    <br>
+                    <textarea rows="12" cols="40" class="input"></textarea>
+                </section>
+            </section>
+                <input type="submit" value="Request Assistance" class="submitFormButtonStyle primary">
+            </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="legal.html">Legal Documents</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

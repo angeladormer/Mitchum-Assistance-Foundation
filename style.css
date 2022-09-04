@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+/* ********     HEADER FORMAT       ******** */
+
+.inactive{
+    color: #002567;
+    opacity: 50%;
+}
+
+.active{
+    color: #002567;
+    font-size: larger;
+}
+
+a, a:visited, a:hover, a:active, li{
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    font-family: 'Akshar', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ********     BODY STYING       ******** */
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    margin-top: 1%;
+    font-family: 'Akshar', sans-serif;;
+}
+
+/* ********     HOMEPAGE FORMATTING       ******** */
+
+.homepageSection{
+    background-color: #FFF7E7;
+    border: #FFD474 solid .2rem;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.homepageTop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    grid-template-rows: 10rem;
+}
+
+.homepageLogo{
+    align-items: left;
+    justify-items: flex-start;
+    height: 80%;
+    width: 80%;
+    padding: 2%;
+}
+
+.homepageOfficer{
+    margin-top: -20%;
+    margin-bottom: -25%;
+    height: 115%;
+    width: 100%;
+}
+
+.homepageText{
+    font-size: xx-large;
+    color: #002567;
+    font-weight: bold;
+    justify-self: right;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+
+.homepageBottom{
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.primary{
+    background-color: #345EA8;
+    color: #EBF6FF;
+    border: none;
+}
+
+.secondary{
+    background-color: #EBF6FF;
+    color: #345EA8;
+    border: none;
+}
+
+.buttonStyle{
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.homepageFooter{
+    margin-top: -1%;
+}
+
+/* ********     FORM FORMATTING       ******** */
+
+.formSection{
+    background-color: #FFF7E7;
+    border: #FFD474 solid .2rem;
+    padding-left: 2%;
+    padding-top: 0;
+    padding-right: 2%;
+    padding-bottom: 0;
+}
+
+.formTitle{
+    font-size: xx-large;
+    color: #002567;
+    margin-bottom: 0;
+}
+
+.formText, .instructions{
+    color: #0C2F6C;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.entireForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formLeft{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-right: 20%;
+    align-items: space-between;
+}
+
+.formRight{
+    margin-top: 1rem;
+    margin-right: 20%;
+}
+
+.helpOurCauseFormRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 8px;
+    border-radius: 12px;
+    border: solid 1px #0C2F6C;
+    margin-bottom: 3em;
+}
+
+.inputWider{
+    width: 25em;
+}
+
+.instructions{
+    font-size: large;
+    font-weight: bold;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ccForm{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ccInput{
+    width: 80%;
+}
+
+.submitFormButtonStyle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+}
+
+.bigTopMargin{
+    margin-top: 0.5em;
+}
+
+.shorterMargin{
+    margin-bottom: .5em;
+}
+
+.noBotMargin{
+    margin-bottom: 0;
+}
+
+.topMargin{
+margin-top: .5em;
+}
+
+.noRightMargin{
+    margin-right: 0;
+}
+
+.blue{
+    color: #0C2F6C;
+    opacity: 50%;
+}
+
+.underline{
+    text-decoration: underline;
+    color: #0C2F6C;
+}
+
+
+/* ********     CONFIRMATION FORMATTING       ******** */
+
+.confirmationSection{
+    background-color: #FFF7E7;
+    border: #FFD474 solid .2rem;
+    padding-left: 2%;
+    padding-top: 0;
+    padding-right: 2%;
+    padding-bottom: 0;
+}
+
+.confirmationFlag{
+    height: 225%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+    margin-bottom: -7%;
+}
+
+.confirmationText{
+    font-size: xx-large;
+    color: #002567;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+/* ********     WHO WE ARE FORMATTING       ******** */
+.container{
+    background-color: #FFF7E7;
+    border: #FFD474 solid .2rem;
+    padding: 2%;
+}
+
+.icon{
+    height: 75%;
+    width: 75%;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+.iconLeft{
+    border: #0C2F6C solid 4px;
+}
+
+.iconRight{
+    border: #9D3532 solid 4px;
+}
+
+.personContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    padding-bottom: 0;
+}
+
+.containerRight{
+    grid-template-columns: 3fr 1fr;
+}
+
+.containerLeft{
+    grid-template-columns: 1fr 3fr;
+}
+
+.name{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #0C2F6C;
+}
+
+.roll{
+    margin-top: 0;
+    font-size: large;
+    font-weight: 1000;
+    letter-spacing: 1.2;
+    color: #002567;
+}
+
+.right{
+    text-align: right;
+
+}
+
+/* ********     DEDICATION PAGE FORMAT       ******** */
+
+.dedicationSection{
+    background-color: #FFF7E7;
+    border: #FFD474 solid .2rem;
+    padding: 2%;
+}
+
+.gregHeadshot{
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dedicationTitle{
+    font-size: xx-large;
+    color: #002567;
+    font-weight: bold;
+}
+
+.dedicationText{
+    font-size: large;
+    color: #002567;
+    font-weight: 1000; 
+}
+
+.signature{
+    font-size: xx-large;
+    color: #002567;
+    font-weight: bold;
+}
+
+/* ********     FOOTER FORMAT       ******** */
+footer{
+    text-align: center;
+}
